@@ -1,0 +1,17 @@
+body {
+  background: violet;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

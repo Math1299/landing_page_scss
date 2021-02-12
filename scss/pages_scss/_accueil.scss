@@ -1,0 +1,9 @@
+body {
+  background: violet;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  @include absolute-el(50%, 0, 0, 50%, -50%, -50%);
+}
