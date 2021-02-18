@@ -183,3 +183,121 @@ nav li a:hover::after {
     width: 320px;
   }
 }
+//------------------------- PERFORMANCES-------------------------
+.container-performances {
+  padding: 120px 20px 170px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(
+      45deg,
+      rgba(190, 188, 245, 0.5) 0%,
+      rgba(190, 188, 245, 0.5) 12.5%,
+      rgba(154, 158, 183, 0.5) 12.5%,
+      rgba(154, 158, 183, 0.5) 25%,
+      rgba(155, 167, 181, 0.5) 25%,
+      rgba(155, 167, 181, 0.5) 37.5%,
+      rgba(119, 148, 154, 0.5) 37.5%,
+      rgba(119, 148, 154, 0.5) 50%,
+      rgba(105, 160, 159, 0.5) 50%,
+      rgba(105, 160, 159, 0.5) 62.5%,
+      rgba(135, 181, 160, 0.5) 62.5%,
+      rgba(135, 181, 160, 0.5) 75%,
+      rgba(165, 218, 184, 0.5) 75%,
+      rgba(165, 218, 184, 0.5) 87.5%,
+      rgba(147, 232, 165, 0.5) 87.5%,
+      rgba(147, 232, 165, 0.5) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(211, 206, 245) 0%,
+      rgb(211, 206, 245) 12.5%,
+      rgb(207, 207, 234) 12.5%,
+      rgb(207, 207, 234) 25%,
+      rgb(193, 211, 239) 25%,
+      rgb(193, 211, 239) 37.5%,
+      rgb(188, 218, 243) 37.5%,
+      rgb(188, 218, 243) 50%,
+      rgb(184, 224, 224) 50%,
+      rgb(184, 224, 224) 62.5%,
+      rgb(165, 230, 216) 62.5%,
+      rgb(165, 230, 216) 75%,
+      rgb(162, 236, 199) 75%,
+      rgb(162, 236, 199) 87.5%,
+      rgb(156, 245, 192) 87.5%,
+      rgb(156, 245, 192) 100%
+    );
+  clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 82%);
+}
+.separation {
+  margin: 0 auto 70px;
+  height: 2px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background: #000;
+}
+.container-boxs {
+  @extend %flex-double-center;
+  width: 100%;
+}
+.box {
+  margin: 0 50px;
+}
+.box p {
+  text-align: center;
+}
+.nombre-clients {
+  font-size: 85px;
+}
+.type-de-clients {
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.info-clients {
+  font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .nombre-clients {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container-performances {
+    padding: 175px 20px 150px;
+  }
+  .container-boxs {
+    flex-direction: column;
+  }
+  .box {
+    padding-bottom: 50px;
+  }
+  .nombre-clients {
+    font-size: 80px;
+  }
+
+  .separation {
+    margin: 0 auto 30px;
+    width: 30%;
+  }
+  .type-de-clients {
+    font-size: 25px;
+  }
+  .info-clients {
+    font-size: 22px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container-performances {
+    padding: 135px 20px 150px;
+  }
+  .nombre-clients {
+    font-size: 50px;
+  }
+  .type-de-clients {
+    font-size: 22px;
+  }
+  .info-clients {
+    font-size: 20px;
+  }
+}
