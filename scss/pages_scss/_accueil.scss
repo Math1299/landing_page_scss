@@ -359,3 +359,102 @@ nav li a:hover::after {
     font-size: 18px;
   }
 }
+//-------------------------CTA-------------------------
+.container-cta {
+  padding: 150px 0 100px;
+  clip-path: polygon(0% 17%, 100% 0%, 100% 82%, 0% 100%);
+  background-image: linear-gradient(
+      45deg,
+      rgba(190, 188, 245, 0.5) 0%,
+      rgba(190, 188, 245, 0.5) 12.5%,
+      rgba(154, 158, 183, 0.5) 12.5%,
+      rgba(154, 158, 183, 0.5) 25%,
+      rgba(155, 167, 181, 0.5) 25%,
+      rgba(155, 167, 181, 0.5) 37.5%,
+      rgba(119, 148, 154, 0.5) 37.5%,
+      rgba(119, 148, 154, 0.5) 50%,
+      rgba(105, 160, 159, 0.5) 50%,
+      rgba(105, 160, 159, 0.5) 62.5%,
+      rgba(135, 181, 160, 0.5) 62.5%,
+      rgba(135, 181, 160, 0.5) 75%,
+      rgba(165, 218, 184, 0.5) 75%,
+      rgba(165, 218, 184, 0.5) 87.5%,
+      rgba(147, 232, 165, 0.5) 87.5%,
+      rgba(147, 232, 165, 0.5) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(211, 206, 245) 0%,
+      rgb(211, 206, 245) 12.5%,
+      rgb(207, 207, 234) 12.5%,
+      rgb(207, 207, 234) 25%,
+      rgb(193, 211, 239) 25%,
+      rgb(193, 211, 239) 37.5%,
+      rgb(188, 218, 243) 37.5%,
+      rgb(188, 218, 243) 50%,
+      rgb(184, 224, 224) 50%,
+      rgb(184, 224, 224) 62.5%,
+      rgb(165, 230, 216) 62.5%,
+      rgb(165, 230, 216) 75%,
+      rgb(162, 236, 199) 75%,
+      rgb(162, 236, 199) 87.5%,
+      rgb(156, 245, 192) 87.5%,
+      rgb(156, 245, 192) 100%
+    );
+}
+.txt-cta {
+  text-align: center;
+  font-size: 22px;
+  padding: 0 10px;
+}
+.btn-appel {
+  display: block;
+  color: #f1f1f1;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px auto;
+  width: 250px;
+  padding: 20px;
+  border-radius: 9999px;
+  background: $violet-primary;
+}
+@media screen and (max-width: 750px) {
+  .txt-cta {
+    font-size: 18px;
+  }
+  .btn-appel {
+    width: 200px;
+  }
+}
+//-------------------------FOOTER-------------------------
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  border-top: 1px dashed #000;
+  background-color: lightgrey;
+  @extend %flex-double-center;
+  flex-direction: column;
+}
+.bloc {
+  width: 300px;
+  margin: 0 30px;
+}
+.footer-media h3 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 22px;
+  line-height: 1.4;
+}
+.liste-media {
+  @extend %flex-double-center;
+}
+.liste-media img {
+  width: 40px;
+  margin: 10px 10px;
+}

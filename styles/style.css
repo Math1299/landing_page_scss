@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
 }
-.container-faq, .container-boxs, .accueil, nav ul {
+.liste-media, footer, .container-faq, .container-boxs, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,6 +375,70 @@ nav li a:hover::after {
     margin-left: 10px;
     font-size: 18px;
   }
+}
+.container-cta {
+  padding: 150px 0 100px;
+  clip-path: polygon(0% 17%, 100% 0%, 100% 82%, 0% 100%);
+  background-image: linear-gradient(45deg, rgba(190, 188, 245, 0.5) 0%, rgba(190, 188, 245, 0.5) 12.5%, rgba(154, 158, 183, 0.5) 12.5%, rgba(154, 158, 183, 0.5) 25%, rgba(155, 167, 181, 0.5) 25%, rgba(155, 167, 181, 0.5) 37.5%, rgba(119, 148, 154, 0.5) 37.5%, rgba(119, 148, 154, 0.5) 50%, rgba(105, 160, 159, 0.5) 50%, rgba(105, 160, 159, 0.5) 62.5%, rgba(135, 181, 160, 0.5) 62.5%, rgba(135, 181, 160, 0.5) 75%, rgba(165, 218, 184, 0.5) 75%, rgba(165, 218, 184, 0.5) 87.5%, rgba(147, 232, 165, 0.5) 87.5%, rgba(147, 232, 165, 0.5) 100%), linear-gradient(135deg, #d3cef5 0%, #d3cef5 12.5%, #cfcfea 12.5%, #cfcfea 25%, #c1d3ef 25%, #c1d3ef 37.5%, #bcdaf3 37.5%, #bcdaf3 50%, #b8e0e0 50%, #b8e0e0 62.5%, #a5e6d8 62.5%, #a5e6d8 75%, #a2ecc7 75%, #a2ecc7 87.5%, #9cf5c0 87.5%, #9cf5c0 100%);
+}
+
+.txt-cta {
+  text-align: center;
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+.btn-appel {
+  display: block;
+  color: #f1f1f1;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px auto;
+  width: 250px;
+  padding: 20px;
+  border-radius: 9999px;
+  background: #8a56eb;
+}
+
+@media screen and (max-width: 750px) {
+  .txt-cta {
+    font-size: 18px;
+  }
+
+  .btn-appel {
+    width: 200px;
+  }
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  border-top: 1px dashed #000;
+  background-color: lightgrey;
+  flex-direction: column;
+}
+
+.bloc {
+  width: 300px;
+  margin: 0 30px;
+}
+
+.footer-media h3 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.liste-media img {
+  width: 40px;
+  margin: 10px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
