@@ -1,183 +1,183 @@
 // --------------------- Accueil ------------------
 
 .titre-fonctionnalites {
-  padding: 130px 0 20px;
+    padding: 130px 0 20px;
 }
 .sous-titre-fonctionnalites {
-  text-align: center;
-  font-size: 24px;
+    text-align: center;
+    font-size: 24px;
 }
 .container-btn-accueil {
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
 }
 .btn-fonctionnalites {
-  display: block;
-  width: 200px;
-  padding: 15px;
-  background: $violet-primary;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 24px;
-  border-radius: 20px;
-  margin: 0 10px;
+    display: block;
+    width: 200px;
+    padding: 15px;
+    background: $violet-primary;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 0 10px;
 }
 .fantome {
-  border: 2px solid $violet-primary;
-  background: transparent;
-  color: $violet-primary;
+    border: 2px solid $violet-primary;
+    background: transparent;
+    color: $violet-primary;
 }
 // --------------------- Fonctionnalites ------------------
 
 .container-fonctionnalites {
-  margin: 125px auto 200px;
-  width: 90%;
-  max-width: 1700px;
-  min-width: 300px;
-  @extend %flex-double-center;
-  flex-wrap: wrap;
+    margin: 125px auto 200px;
+    width: 90%;
+    max-width: 1700px;
+    min-width: 300px;
+    @extend %flex-double-center;
+    flex-wrap: wrap;
 }
 .box-fonctionnalites {
-  width: 400px;
-  display: flex;
-  margin: 40px 20px;
+    width: 400px;
+    display: flex;
+    margin: 40px 20px;
 }
 .gauche-img {
-  font-size: 50px;
+    font-size: 50px;
 }
 .droite-txt p:nth-of-type(1) {
-  font-size: 35px;
-  font-weight: bold;
+    font-size: 35px;
+    font-weight: bold;
 }
 .droite-txt p:nth-of-type(2) {
-  font-size: 25px;
-  line-height: 1.2;
+    font-size: 25px;
+    line-height: 1.2;
 }
 // --------------------- Newsletter ------------------
 .sous-titre-newsletter {
-  font-size: 27px;
-  text-align: center;
-  margin-bottom: 50px;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 form {
-  width: 50%;
-  margin: 0 auto 200px;
-  display: flex;
-  justify-content: center;
-  position: relative;
+    width: 50%;
+    margin: 0 auto 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 form input {
-  width: 100%;
-  padding: 15px;
-  font-size: 20px;
-  outline: none;
-  border: 1px solid #000;
-  border-radius: 99999px;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 99999px;
 }
 form button {
-  outline: none;
-  width: 200px;
-  border: 1px solid #000;
-  border-radius: 9999px;
-  font-size: 20px;
-  padding: 15px;
-  position: absolute;
-  right: 0px;
+    outline: none;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 9999px;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+    right: 0px;
 }
 @media screen and (max-width: 1100px) {
-  form {
-    width: 80%;
-  }
+    form {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 800px) {
-  .container-fonctionnalites {
-    margin: 125px auto 75px;
-  }
+    .container-fonctionnalites {
+        margin: 125px auto 75px;
+    }
 }
 @media screen and (max-width: 600px) {
-  .sous-titre-newsletter {
-    font-size: 20px;
-  }
-  form button {
-    width: 125px;
-    font-size: 17px;
-    padding: 10 auto;
-  }
-  form input {
-    font-size: 17px;
-  }
+    .sous-titre-newsletter {
+        font-size: 20px;
+    }
+    form button {
+        width: 125px;
+        font-size: 17px;
+        padding: 10 auto;
+    }
+    form input {
+        font-size: 17px;
+    }
 }
 // --------------------- Nos Produits ------------------
 
 .galerie-txt-pics {
-  width: 1300px;
-  margin: 0 auto;
-  @extend %flex-double-center;
-  flex-wrap: wrap;
-  margin-bottom: 80px;
+    width: 1300px;
+    margin: 0 auto;
+    @extend %flex-double-center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 .txt-box-galerie {
-  width: 500px;
-  height: 500px;
-  margin: 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .txt-box-galerie p:nth-child(1) {
-  font-size: 50px;
-  font-weight: lighter;
-  padding: 0 0 20px 0;
+    font-size: 50px;
+    font-weight: lighter;
+    padding: 0 0 20px 0;
 }
 .underline-violet {
-  width: 200px;
-  margin-left: 0;
-  height: 3px;
-  background: $violet-primary;
-  outline: none;
-  border: none;
+    width: 200px;
+    margin-left: 0;
+    height: 3px;
+    background: $violet-primary;
+    outline: none;
+    border: none;
 }
 .txt-box-galerie p:nth-child(3) {
-  font-size: 35px;
-  font-weight: bold;
-  padding: 20px 0;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0;
 }
 .txt-box-galerie p:nth-child(4) {
-  font-size: 30px;
-  padding: 0 0 20px 0;
+    font-size: 30px;
+    padding: 0 0 20px 0;
 }
 .txt-box-galerie a {
-  color: #000;
-  font-size: 20px;
-  padding: 20px 0;
+    color: #000;
+    font-size: 20px;
+    padding: 20px 0;
 }
 .img-box-galerie {
-  border: 1px solid #000;
-  width: 500px;
-  height: 500px;
-  background: url(../../ressources/img-galerie.jpg);
-  background-size: cover;
-  background-position: center;
-  margin: 50px;
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+    background: url(../../ressources/img-galerie.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
 }
 @media screen and (max-width: 1300px) {
-  .galerie-txt-pics {
-    width: 90%;
-  }
-  .txt-box-galerie {
-    height: auto;
-  }
+    .galerie-txt-pics {
+        width: 90%;
+    }
+    .txt-box-galerie {
+        height: auto;
+    }
 }
 @media screen and (max-width: 800px) {
-  .img-box-galerie {
-    margin: 5px;
-  }
-  .txt-box-galerie {
-    margin: 5px;
-  }
-  .txt-box-galerie p:nth-child(1) {
-    font-size: 35px;
-  }
+    .img-box-galerie {
+        margin: 5px;
+    }
+    .txt-box-galerie {
+        margin: 5px;
+    }
+    .txt-box-galerie p:nth-child(1) {
+        font-size: 35px;
+    }
 }
